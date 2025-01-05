@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f6b;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+
+    <section>
+        <p>This is a basic webpage demonstrating HTML, CSS, and JavaScript integration.</p>
+        <button id="alertButton">Click Me</button>
+    </section>
+
+    <footer>
+        <p>Created by You</p>
+    </footer>
+
+    <script>
+        // Add event listener for button click
+document.getElementById('alertButton').addEventListener('click', function() {
+    alert('You clicked the button!');
+});
+
+    </script>
+</body>
+</html>
